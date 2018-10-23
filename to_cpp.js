@@ -22,7 +22,7 @@ for (var colorid in colors) {
   const rgb = colors[colorid].rgb
 
   enumvalues += `    ${enumname},\n`
-  mapvalues += `    {ColorName::${enumname}, Color(${rgb[0]}, ${rgb[1]}, ${rgb[2]})},\n`
+  mapvalues += `    {ColorName::${enumname}, ColorValues{${rgb[0]}, ${rgb[1]}, ${rgb[2]}}},\n`
   namemapvalues += `    {"${colorid}", ColorName::${enumname}},\n`
 }
 

@@ -17,7 +17,7 @@ enum class ColorName : int {
 {{COLOR_ENUM}}
 };
 
-const std::map<ColorName, Color> ColorMap = {
+const std::map<ColorName, ColorValues> ColorMap = {
 {{COLOR_MAP}}
 };
 
